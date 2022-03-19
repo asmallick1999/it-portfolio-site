@@ -1,0 +1,96 @@
+/* <!-- --------------------------------font import--------------------------- --> */
+
+
+
+
+
+/* <!-- ------------------------------------BODY----------------------------- --> */
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/* <!-- --------------------------------HEADER SECTION----------------------- --> */
+.navbar{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu a{
+    text-decoration: none;
+    margin: 0 15px;
+}
+.head-main{
+    background-image: url('img/header-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 100%;
+    min-height: 270px;
+}   
+.head-container{
+    color: white;
+    width: 40%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+.head-container h1{
+    padding-top: 80px;
+}
+.head-container p{
+    padding-top: 30px;
+    font-size: large;
+}
+
+
+
+
+
+
+
+
+/* <!-- ------------------------------SERVICES SECTION------------------------ --> */
+
+.services-main{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    gap: 53px;
+    padding: 50px;
+
+}
+
+.services-contain img{
+    width: 50%;
+}
+.services-contain p{
+    text-align: justify;
+}
+
+
+
+/* <!-- ------------------------------ABOUT SECTION---------------------------- --> */
+.about{
+    background-color: bisque;
+}
+.about-us-main{
+    display: flex;
+    /* padding: 50px; */
+    width: 70%;
+    margin: 0 auto;
+    
+}
+.about-us-img img{
+    width: 45%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+.
+
+
+/* <!-- ------------------------------FOOTER SECTION---------------------------- -->  */
