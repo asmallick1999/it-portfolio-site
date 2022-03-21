@@ -19,6 +19,10 @@ body{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    /* position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px; */
 }
 .nav-menu a{
     text-decoration: none;
@@ -30,9 +34,10 @@ body{
     background-size: cover;
     background-size: 100% 100%;
     min-height: 270px;
+    opacity: 0.9;
 }   
 .head-container{
-    color: white;
+    color: rgb(255, 255, 255);
     width: 40%;
     text-align: center;
     margin: 0 auto;
@@ -77,6 +82,7 @@ body{
 /* <!-- ------------------------------ABOUT SECTION---------------------------- --> */
 .about{
     background-color: bisque;
+    padding: 70px;
 }
 .about-us-main{
     display: flex;
@@ -90,7 +96,15 @@ body{
     border-radius: 10px;
     text-align: center;
 }
-
+.product-main{
+    display: flex;
+    width: 70%;
+    margin: auto;
+}
+.product-img img{
+    width: 80%;
+    border-radius: 15px;
+}
 
 
 /* <!-- ------------------------------FOOTER SECTION---------------------------- -->  */
