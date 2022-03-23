@@ -15,7 +15,7 @@ body{
 /* <!-- --------------------------------HEADER SECTION----------------------- --> */
 .navbar{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
@@ -53,6 +53,7 @@ body{
     width: 40%;
     text-align: center;
     margin: 0 auto;
+    
 
 
 }
@@ -75,7 +76,7 @@ body{
 
 .services-main{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     text-align: center;
     gap: 53px;
@@ -84,7 +85,7 @@ body{
 }
 
 .services-contain img{
-    width: 50%;
+    width: 28%;
 }
 .services-contain p{
     text-align: justify;
@@ -94,7 +95,7 @@ body{
 
 /* <!-- ------------------------------ABOUT SECTION---------------------------- --> */
 .about{
-    background-color: bisque;
+    background-color: #e5e5e5;
     padding-top: 60px;
     padding-bottom: 54px;
 }
@@ -105,7 +106,7 @@ body{
 .about-us-main{
     display: flex;
     /* padding: 50px; */
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
     
 }
