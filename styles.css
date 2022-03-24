@@ -1,10 +1,17 @@
 /* <!-- --------------------------------font import--------------------------- --> */
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fredoka:wght@400;500&family=League+Gothic&family=Lobster&family=Pacifico&family=Red+Hat+Mono&family=Roboto+Mono:wght@200&family=Saira+Condensed:wght@100&family=Sansita+Swashed:wght@700&family=Smooch+Sans:wght@200&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&family=Syne+Mono&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fredoka:wght@400;500&family=Inspiration&family=League+Gothic&family=Lobster&family=Pacifico&family=Red+Hat+Mono&family=Roboto+Mono:wght@200&family=Saira+Condensed:wght@100&family=Sansita+Swashed:wght@700&family=Smooch+Sans:wght@200&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&family=Syne+Mono&display=swap');
 
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=BhuTuka+Expanded+One&family=Fredoka:wght@400;500&family=Inspiration&family=League+Gothic&family=Lobster&family=Pacifico&family=Rajdhani:wght@300&family=Red+Hat+Mono&family=Roboto+Mono:wght@200&family=Saira+Condensed:wght@100&family=Sansita+Swashed:wght@700&family=Smooch+Sans:wght@200&family=Source+Code+Pro:ital,wght@0,400;0,600;1,200&family=Syne+Mono&display=swap');
 
 
 /* <!-- ------------------------------------BODY----------------------------- --> */
+html{
+    scroll-behavior: smooth;
+}
+
+
 body{
     margin: 0;
     padding: 0;
@@ -59,10 +66,17 @@ body{
 }
 .head-container h1{
     padding-top: 80px;
+    font-family: 'Red Hat Mono', monospace;
+    LETTER-SPACING: 11px;
 }
 .head-container p{
     padding-top: 30px;
-    font-size: large;
+    font-size: 22px;
+    font-family: 'Inspiration', cursive;
+    font-weight: bold;
+    letter-spacing: 1px;
+    word-spacing: 8px;
+
 }
 
 
@@ -87,8 +101,14 @@ body{
 .services-contain img{
     width: 28%;
 }
+.services-contain h4{
+    font-size: 25px;
+}
 .services-contain p{
     text-align: justify;
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: bold;
+    word-spacing: -5px;
 }
 
 
@@ -117,9 +137,12 @@ body{
     width: 400px;
     border-radius: 10px;
 }
+
+/* --------product section------------ */
+
 .product-main{
     display: flex;
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 .product-img img{
@@ -136,13 +159,12 @@ body{
 
 footer{
     background-color:rgb(138, 139, 139);
-}
-.footer-main{
+}.footer-main{
     
     
 }
 .footer-contain{
-    text-align: center;
+    text-align:center;
     padding: 12px;
 }
 
