@@ -34,13 +34,22 @@ body{
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
-    /* position: -webkit-sticky;
-    position: sticky;
-    top: 0;
-    padding: 5px; */
+    /* border-bottom: 3px solid #f2f2f2; */
+}
+.logo-title{
+    display: flex;
+}
+.logo-title img{
+    width: 66px;
+}
+.logo-title h2{
+    color: #000000;
 }
 .nav-menu{
     margin-right:-313px;
+    border-radius: 26px;
+    box-shadow: 0 0 0 1px rgb(255, 255, 255);
+    transition: all 200ms ease-out;
 }
 .nav-menu a{
     text-decoration: none;
@@ -48,12 +57,22 @@ body{
     font-weight: bold;
     color: black;
     text-align: right; 
+   
+}
+.nav-menu:hover{
+    box-shadow: 0 0 6px rgb(35 173 255);
 }
 .nav-menu a:hover{
-    font-size: 20px;
+    color: #f853aedc;
+    
 }
 .ph-no{
     text-align: right;
+    color: #e8258f;
+    border-radius: 30px;
+    width: 144px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
 }
 .head-main{
     /* background-color: rgb(171, 179, 177); */
@@ -70,25 +89,35 @@ body{
     width: 40%;
     text-align: center;
     margin: 0 auto;
-    
-
-
 }
 .head-container h1{
     padding-top: 80px;
     font-family: 'Red Hat Mono', monospace;
     LETTER-SPACING: 11px;
     font-family: bold;
+    margin-top: 0;
+    font-size: 31px;
 }
 .head-container p{
-    padding-top: 30px;
-    font-size: 26px;
-    font-family: 'Sacramento', cursive;
-    font-weight: bold;
+    padding-top: 10px;
+    font-size: 27px;
     letter-spacing: 1px;
-    word-spacing: 14px;
-    color: #738b9c;
+    color: #ffffff;
+    text-transform: lowercase;
 
+}
+.head-container button{
+    padding: 11px;
+    margin-bottom: 56px;
+    border-radius: 9px;
+    border-style: none;
+    background-color: #e8258f;
+    color: white;
+    font-weight: bold;
+}
+.head-container button:hover{
+    background-color: #a81064;
+    cursor: pointer;
 }
 
 
@@ -109,12 +138,17 @@ body{
     padding: 100px 50px;
 
 }
+.services-contain{
+    box-shadow: 0 2px 8px 0 rgb(234 59 154), 0 6px 20px 0 rgb(0 0 0 / 19%);
+    padding: 20px;
+    border-radius: 10px;
+}
 
-.services-contain:hover{
+/* .services-contain:hover{
      border: 2px solid gray;
      padding: 20px;
      transform: scale(1.2);
-}
+} */
 
 .services-contain img{
     width: 24%;
@@ -140,14 +174,17 @@ body{
     padding-bottom: 54px;
 }
 .about-us-text{
-    letter-spacing: 4px;
-    padding-top: 30px;
+    padding: 30px;
     
 }
 .about-us-text h2{
     font-family: 'Staatliches', cursive;
     font-size: 34px;
     letter-spacing: 13px;
+}
+.p2{    
+
+
 }
 .about-us-main{
     display: flex;
@@ -158,7 +195,8 @@ body{
 }
 
 .about-us-img img:hover{
-    transform: scale(1.2);
+    transform: scale(1.3);
+    transition: transform 2s;
 }
 .about-us-img{
     text-align: right;
@@ -173,11 +211,19 @@ body{
     letter-spacing: 7px;
 }
 .about-us-text button{
-    border-radius: 12px;
-    padding: 10px 15px;
+    padding: 11px;
+    margin-bottom: 56px;
+    border-radius: 9px;
+    border-style: none;
+    background-color: #e8258f;
+    color: white;
+    font-weight: bold;
+    
 }
-.about-para{
-    font-family: 'Arima Madurai', cursive;
+.about-us-text button:hover{
+    background-color: #a81064;
+    cursor: pointer;
+
 }
 
 /* --------product section------------ */
@@ -220,6 +266,7 @@ footer{
 .footer-contain{
     text-align:center;
     padding: 12px;
+    font-size: 19px;
 }
 .f-p1{
     margin-top: 15px;
